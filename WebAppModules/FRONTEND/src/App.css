@@ -1,0 +1,31 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+
+html,body,#root{
+  height: 100%;
+  width: 100%;
+}
+
+main{
+  height: 100%;
+  width: 100%;
+  padding: 20px;
+  display: flex;
+  gap: 1rem;
+}
+
+main.right, main.left {
+  height: 100%;
+  flex-basis: 50%;
+  border-radius: 10px;
+}
+
+main.right {
+  background-color: red;
+}
+main.left {
+  background-color: blue;
+}
